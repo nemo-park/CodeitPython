@@ -19,3 +19,4 @@ print("제 나이는 " + str(age) + "살입니다.")
 
 # Error - 형변환을 할때 논리적으로 합당한지 생각해봐야함
 # print(int("Hello World!"))
+
