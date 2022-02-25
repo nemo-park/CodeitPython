@@ -1,4 +1,4 @@
-# 추상화 (Abstration)
+##### 추상화 (Abstration)
 # 복잡한 내용은 숨기고 주요 기능에만 신경쓰면 됨
 # 변수 (Variable) : 값 저장
 
