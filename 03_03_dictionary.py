@@ -18,7 +18,30 @@ print(my_dictionary)
 
 my_family = {
     '엄마': '이효리',
-    '아빠': '이상순'
+    '아빠': '이상순',
+    '딸': '이상미'
 }
 
 print(my_family['엄마'])
+
+print(my_family)
+
+
+print("my_family.values()----------")
+print('이효리' in my_family.values())
+print('최웅' in my_family.values())
+
+for value in my_family.values():
+    print(value)
+
+
+print("my_family.keys()----------")
+print(my_family.keys())
+
+for key in my_family.keys():
+    value = my_family[key]
+    print(key, value)
+
+print("my_family.items()----------")
+for key, value in my_family.items():
+    print(key, value+)
