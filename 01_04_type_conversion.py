@@ -2,9 +2,18 @@
 # 04. 형변환
 
 print(int(3.8))
+print(int(3.14))
+
+# ValueError: invalid literal for int() with base 10: '3.14'
+# . 때문에 int로 바꿀 수 없음
+# print(int("3.14"))
+
+# ValueError: invalid literal for int() with base 10: '0.3e2'
+# print(int("0.3e2"))
 
 # floating point
 print(float(3))
+print(float(0.3e2))
 
 # 문자열 2 → 정수형 2, 문자열 5 → 정수형 5로 바뀜
 print(int("2") + int("5"))
