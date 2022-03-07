@@ -6,6 +6,9 @@ burger_price = 4990
 # 내장함수 : 기본 제공되는 함수 ex) print
 print(burger_price)
 
+# \t : Tab , \n : Next Line
+print("Welcome to \nSungkyunkwan University\nBig Data")
+
 # Function Header
 # 파라미터 (Parameter)
 #   함수에 넘겨주는 값
