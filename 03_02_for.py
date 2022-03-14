@@ -18,6 +18,8 @@ print()
 for i in range(10):
     print(i)
 
+print()
+
 numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
 
 
