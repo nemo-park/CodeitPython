@@ -15,8 +15,6 @@ def triangle_dp() -> int:
         dp.append(pascal)
 
     return dp[n - 1][k - 1]
-    #################
-
 
 def main():
     print(triangle_dp())
